@@ -52,10 +52,20 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+"@jsep-plugin/assignment@^1.2.1":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@jsep-plugin/assignment/-/assignment-1.3.0.tgz#fcfc5417a04933f7ceee786e8ab498aa3ce2b242"
+  integrity sha512-VVgV+CXrhbMI3aSusQyclHkenWSAm95WaiKrMxRFam3JSUiIaQjoMIw2sEs/OX4XifnqeQUN4DYbJjlA8EfktQ==
+
 "@jsep-plugin/regex@^1.0.1":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@jsep-plugin/regex/-/regex-1.0.2.tgz#a9d5b61bf9975fe6563ba13be4003773db9dfc4a"
   integrity sha512-Nn/Bcaww8zOebMDqNmGlhAWPWhIr/8S8lGIgaB/fSqev5xaO5uKy5i4qvTh63GpR+VzKqimgxDdcxdcRuCJXSw==
+
+"@jsep-plugin/regex@^1.0.3":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@jsep-plugin/regex/-/regex-1.0.4.tgz#cb2fc423220fa71c609323b9ba7f7d344a755fcc"
+  integrity sha512-q7qL4Mgjs1vByCaTnDFcBnV9HS7GVPJX5vyVoCgZHNSC9rjwIlmbXG5sUuorR5ndfHAIlJ8pVStxvjXHbNvtUg==
 
 "@jsep-plugin/ternary@^1.0.2":
   version "1.1.2"
@@ -293,7 +303,7 @@
   resolved "https://registry.yarnpkg.com/@stoplight/path/-/path-1.3.2.tgz#96e591496b72fde0f0cdae01a61d64f065bd9ede"
   integrity sha512-lyIc6JUlUA8Ve5ELywPC8I2Sdnh1zc1zmbYgVarhXIp9YeAB0ReeqmGEOWNtlHkbP2DAA1AL65Wfn2ncjK/jtQ==
 
-"@stoplight/spectral-core@>=1", "@stoplight/spectral-core@^1.18.3", "@stoplight/spectral-core@^1.7.0", "@stoplight/spectral-core@^1.8.0", "@stoplight/spectral-core@^1.8.1":
+"@stoplight/spectral-core@>=1", "@stoplight/spectral-core@^1.7.0", "@stoplight/spectral-core@^1.8.0", "@stoplight/spectral-core@^1.8.1":
   version "1.18.3"
   resolved "https://registry.yarnpkg.com/@stoplight/spectral-core/-/spectral-core-1.18.3.tgz#d6859182aa09681fe1e5af5a5f4c39082e554542"
   integrity sha512-YY8x7X2SWJIhGTLPol+eFiQpWPz0D0mJdkK2i4A0QJG68KkNhypP6+JBC7/Kz3XWjqr0L/RqAd+N5cQLPOKZGQ==
@@ -318,6 +328,33 @@
     nimma "0.2.2"
     pony-cause "^1.0.0"
     simple-eval "1.0.0"
+    tslib "^2.3.0"
+
+"@stoplight/spectral-core@^1.19.2":
+  version "1.19.2"
+  resolved "https://registry.yarnpkg.com/@stoplight/spectral-core/-/spectral-core-1.19.2.tgz#12cc1106604ad1606e0acb8f5628d9eecb4eab44"
+  integrity sha512-Yx1j7d0VGEbsOCimPgl+L8w7ZuuOaxqGvXSUXgm9weoGR5idLQjPaTuHLdfdziR1gjqQdVTCEk/dN0cFfUKhow==
+  dependencies:
+    "@stoplight/better-ajv-errors" "1.0.3"
+    "@stoplight/json" "~3.21.0"
+    "@stoplight/path" "1.3.2"
+    "@stoplight/spectral-parsers" "^1.0.0"
+    "@stoplight/spectral-ref-resolver" "^1.0.4"
+    "@stoplight/spectral-runtime" "^1.0.0"
+    "@stoplight/types" "~13.6.0"
+    "@types/es-aggregate-error" "^1.0.2"
+    "@types/json-schema" "^7.0.11"
+    ajv "^8.17.1"
+    ajv-errors "~3.0.0"
+    ajv-formats "~2.1.0"
+    es-aggregate-error "^1.0.7"
+    jsonpath-plus "10.1.0"
+    lodash "~4.17.21"
+    lodash.topath "^4.5.2"
+    minimatch "3.1.2"
+    nimma "0.2.3"
+    pony-cause "^1.0.0"
+    simple-eval "1.0.1"
     tslib "^2.3.0"
 
 "@stoplight/spectral-formats@>=1", "@stoplight/spectral-formats@^1.0.0", "@stoplight/spectral-formats@^1.5.0":
@@ -581,6 +618,16 @@ ajv@^8.0.0, ajv@^8.6.0, ajv@^8.6.3, ajv@^8.8.2:
     json-schema-traverse "^1.0.0"
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
+
+ajv@^8.17.1:
+  version "8.17.1"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.17.1.tgz#37d9a5c776af6bc92d7f4f9510eba4c0a60d11a6"
+  integrity sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==
+  dependencies:
+    fast-deep-equal "^3.1.3"
+    fast-uri "^3.0.1"
+    json-schema-traverse "^1.0.0"
+    require-from-string "^2.0.2"
 
 ansi-styles@^3.2.1:
   version "3.2.1"
@@ -897,7 +944,7 @@ execa@^4.0.0:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-fast-deep-equal@^3.1.1:
+fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
   integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
@@ -917,6 +964,11 @@ fast-memoize@^2.5.2:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/fast-memoize/-/fast-memoize-2.5.2.tgz#79e3bb6a4ec867ea40ba0e7146816f6cdce9b57e"
   integrity sha512-Ue0LwpDYErFbmNnZSF0UH6eImUwDmogUO1jyE+JbN2gsQz/jICm1Ve7t9QT0rNSsfJt+Hs4/S3GnsDVjL4HVrw==
+
+fast-uri@^3.0.1:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/fast-uri/-/fast-uri-3.0.3.tgz#892a1c91802d5d7860de728f18608a0573142241"
+  integrity sha512-aLrHthzCjH5He4Z2H9YZ+v6Ujb9ocRuW6ZzkJQOrTxleEijANq4v1TsaPaVG1PZcuurEzrLcWRyYBYXD5cEiaw==
 
 fastq@^1.6.0:
   version "1.10.1"
@@ -1322,6 +1374,11 @@ jsep@^1.1.2, jsep@^1.2.0:
   resolved "https://registry.yarnpkg.com/jsep/-/jsep-1.3.6.tgz#23fbf8c9479891611a237362e9e25d7746fac9d5"
   integrity sha512-o7fP1eZVROIChADx7HKiwGRVI0tUqgUUGhaok6DP7cMxpDeparuooREDBDeNk2G5KIB49MBSkRYsCOu4PmZ+1w==
 
+jsep@^1.3.6, jsep@^1.3.9:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/jsep/-/jsep-1.4.0.tgz#19feccbfa51d8a79f72480b4b8e40ce2e17152f0"
+  integrity sha512-B7qPcEVE3NVkmSJbaYxvv4cHkVW7DQsZz13pUMrfS8z8Q/BuShN+gcTXrUlPiGqM2/t/EEaI030bpxMqY8gMlw==
+
 json-parse-even-better-errors@^2.3.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz#7c47805a94319928e05777405dc12e1f7a4ee02d"
@@ -1336,6 +1393,15 @@ jsonc-parser@~2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/jsonc-parser/-/jsonc-parser-2.2.1.tgz#db73cd59d78cce28723199466b2a03d1be1df2bc"
   integrity sha512-o6/yDBYccGvTz1+QFevz6l6OBZ2+fMVu2JZ9CIhzsYRX4mjaK5IyX9eldUdCmga16zlgQxyrj5pt9kzuj2C02w==
+
+jsonpath-plus@10.1.0, "jsonpath-plus@^6.0.1 || ^10.1.0":
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/jsonpath-plus/-/jsonpath-plus-10.1.0.tgz#e8724c721ac60ff2db667066131b1a2c992ffcf0"
+  integrity sha512-gHfV1IYqH8uJHYVTs8BJX1XKy2/rR93+f8QQi0xhx95aCiXn1ettYAd5T+7FU6wfqyDoX/wy0pm/fL3jOKJ9Lg==
+  dependencies:
+    "@jsep-plugin/assignment" "^1.2.1"
+    "@jsep-plugin/regex" "^1.0.3"
+    jsep "^1.3.9"
 
 jsonpath-plus@7.1.0:
   version "7.1.0"
@@ -1450,6 +1516,19 @@ nimma@0.2.2:
     jsep "^1.2.0"
   optionalDependencies:
     jsonpath-plus "^6.0.1"
+    lodash.topath "^4.5.2"
+
+nimma@0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/nimma/-/nimma-0.2.3.tgz#33cd6244ede857d9c8ac45b9d1aad07091559e45"
+  integrity sha512-1ZOI8J+1PKKGceo/5CT5GfQOG6H8I2BencSK06YarZ2wXwH37BSSUWldqJmMJYA5JfqDqffxDXynt6f11AyKcA==
+  dependencies:
+    "@jsep-plugin/regex" "^1.0.1"
+    "@jsep-plugin/ternary" "^1.0.2"
+    astring "^1.8.1"
+    jsep "^1.2.0"
+  optionalDependencies:
+    jsonpath-plus "^6.0.1 || ^10.1.0"
     lodash.topath "^4.5.2"
 
 node-fetch@^2.6.0, node-fetch@^2.6.1, node-fetch@^2.6.7:
@@ -1752,6 +1831,13 @@ simple-eval@1.0.0:
   integrity sha512-kpKJR+bqTscgC0xuAl2xHN6bB12lHjC2DCUfqjAx19bQyO3R2EVLOurm3H9AUltv/uFVcSCVNc6faegR+8NYLw==
   dependencies:
     jsep "^1.1.2"
+
+simple-eval@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/simple-eval/-/simple-eval-1.0.1.tgz#f91fc2b1583b7f5b972cdc088b769880087120a5"
+  integrity sha512-LH7FpTAkeD+y5xQC4fzS+tFtaNlvt3Ib1zKzvhjv/Y+cioV4zIuw4IZr2yhRLu67CWL7FR9/6KXKnjRoZTvGGQ==
+  dependencies:
+    jsep "^1.3.6"
 
 slash@^3.0.0:
   version "3.0.0"
