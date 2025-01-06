@@ -44,7 +44,7 @@
     "@stoplight/spectral-ruleset-bundler": "^1.5.2",
     "@stoplight/spectral-rulesets": ">=1.18.1",
     "@stoplight/types": "^13.20.0",
-    "fast-glob": "^3.2.7",
+    "fast-glob": "^3.3.3",
     "fp-ts": "^2.9.5",
     "io-ts": "^2.2.16",
     "lodash": "^4.17.21",
