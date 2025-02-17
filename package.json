@@ -35,9 +35,9 @@
   "dependencies": {
     "@actions/core": "^1.5.0",
     "@actions/github": "^4.0.0",
-    "@octokit/graphql": "^4.6.0",
-    "@octokit/request": "^5.4.14",
-    "@octokit/rest": "^18.1.0",
+    "@octokit/graphql": "^8.2.1",
+    "@octokit/request": "^9.2.1",
+    "@octokit/rest": "^21.1.1",
     "@stoplight/spectral-core": "^1.18.3",
     "@stoplight/spectral-parsers": "^1.0.3",
     "@stoplight/spectral-ref-resolver": "^1.0.4",
